@@ -1,0 +1,39 @@
+{
+  "name": "class-validator-mongo-object-id",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "files": [
+    "libs/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint -p tsconfig.json",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run lint"
+  },
+  "keywords": [
+    "nestjs",
+    "mongodb",
+    "mongoose",
+    "objectid",
+    "decorator",
+    "class-validator"
+  ],
+  "author": "quantumsheep <nathanael.dmc@outlook.fr>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quantumsheep/class-validator-mongo-object-id.git"
+  },
+  "bugs": "https://github.com/quantumsheep/class-validator-mongo-object-id/issues",
+  "homepage": "https://github.com/quantumsheep/class-validator-mongo-object-id",
+  "dependencies": {
+    "class-validator": "^0.12.2",
+    "mongoose": "^5.11.8"
+  },
+  "devDependencies": {
+    "tslint": "^6.1.3",
+    "typescript": "^4.1.3"
+  }
+}
