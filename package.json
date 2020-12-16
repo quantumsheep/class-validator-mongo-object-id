@@ -2,10 +2,12 @@
   "name": "class-validator-mongo-object-id",
   "version": "1.0.0",
   "description": "",
-  "main": "lib/index.js",
   "files": [
     "libs/**/*"
   ],
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "typings": "./lib/index.d.ts",
   "scripts": {
     "build": "tsc",
     "lint": "tslint -p tsconfig.json",
