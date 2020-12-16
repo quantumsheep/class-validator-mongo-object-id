@@ -1,3 +1,5 @@
+[![npm](https://img.shields.io/npm/v/class-validator-mongo-object-id)](https://www.npmjs.com/package/class-validator-mongo-object-id)
+
 # ObjectId Class Validator
 This package validates ObjectId in classes. It was originally made to be used in NestJS but works everywhere else.
 
